@@ -13,11 +13,9 @@ use token::TokenKind::*;
 
 /// Parses the first token from the provided input string.
 #[inline]
-pub fn first_token(input: &str) -> char {
+pub fn first_token(input: &str) -> Token {
     debug_assert!(!input.is_empty());
-    // Cursor::new(input)
-
-    '1'
+    Cursor::new(input).advance_token()
 }
 
 /// Creates an iterator that produces tokens from the input string.
