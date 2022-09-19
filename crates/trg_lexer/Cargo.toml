@@ -1,0 +1,15 @@
+[package]
+name = "trg_lexer"
+version = "0.0.0"
+license = "MIT OR Apache-2.0"
+edition = "2021"
+
+repository = "https://github.com/TriggerReactor/lsp/"
+description = """
+Lexer implementation for TriggerReactor.
+"""
+
+[dependencies]
+
+[dev-dependencies]
+expect-test = "1.4.0"
