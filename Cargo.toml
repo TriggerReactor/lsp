@@ -1,0 +1,10 @@
+[package]
+name = "trg-analzyer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chumsky = "0.8.0"
+clap = "3.2.22"
+tokio = { version = "1.17.0", features = ["full"] }
+tower-lsp = "0.17.0"
